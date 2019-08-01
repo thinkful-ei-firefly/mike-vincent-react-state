@@ -4,9 +4,10 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import HelloWorld from './state-drills/HelloWorld';
 import Bomb from './state-drills/Bomb';
+import RouletteGun from './state-drills/RouletteGun';
 
 
-ReactDOM.render(<Bomb />, document.getElementById('root'));
+ReactDOM.render(<RouletteGun />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
